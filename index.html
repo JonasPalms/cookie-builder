@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Cookie builder</h1>
+
+    <section>
+      <label for="website-input"></label>
+      <div class="input-field-wrapper">
+        <input
+          type="text"
+          id="website-input"
+          class="website-input-field"
+          autocomplete="off"
+        />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+      <div class="cookie hide cookie-outer">
+        <div class="cookie-inner">
+          <h2 class="cookie-header">Vi vil have dine småkager</h2>
+          <div class="cookie-content">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            architecto similique officiis est eos eligendi harum enim ut soluta
+            ipsum. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Quibusdam architecto similique officiis est eos eligendi harum enim
+            ut soluta ipsum.
+          </div>
+          <div class="cookie-footer">
+            <button class="cookie-button">Accepter Vilkår</button>
+            <button class="cookie-button">Afvis Vilkår</button>
+          </div>
+        </div>
+      </div>
+      <i class="fas fa-spinner fa-spin hide loading-spinner"></i>
+    </section>
+  </body>
+</html>
